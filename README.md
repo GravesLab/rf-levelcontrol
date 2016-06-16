@@ -25,7 +25,7 @@ The bill of materials is small:
 
 Analysis
 --------
-The included IPython Notebook analyzes the raw spectral files in `/analysis/data` and generates a series of plots in `/analysis/plots/`:
+The included IPython Notebook analyzes the raw spectral files in `/analysis/data` and generates a series of plots in `/analysis/plots/`.  The `gifsemble` shell script is included for assembling the resulting .png files into an animated .gif.  In this plot, the level of salt water in the vessel was changed in steps from 0 to 70mL and back to 0mL:
 
 ![network analysis][plot]
 
