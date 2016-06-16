@@ -36,13 +36,13 @@ Experimental Design
 
 - IKA ETS-DS heated stir plate with thermal feedback control
 - 70mL glass cylinder is loaded with 50mL of aqueous solution
--- Also contains sugar oligomers, salts
--- Reaction produces furans and related products
+  - Also contains sugar oligomers, salts
+  - Reaction produces furans and related products
 - Heated with heat tape (probably nichrome in silicone) with a control knob
 - Reacted at 140°C for 2-24 hours
 - Products are pervaporated through a membrane in the bottom of the cylinder
--- Gradient provided by vacuum pump and vapor pressure of reaction solution
--- Product vapor is condensed in cold traps
+  - Gradient provided by vacuum pump and vapor pressure of reaction solution
+  - Product vapor is condensed in cold traps
 - Liquid can be sampled during the run using the positive pressure of the vessel and an integral dip tube
 
 ### Control Goals
@@ -54,4 +54,4 @@ Maintain the liquid level within 10% of the target (±2.5mL)
 Turning on, off the stir plate vortexes the water, causing it to rise ~7.5mm 
 
 [schematic]: https://cdn.rawgit.com/GravesLab/rigol-networkanalyzer/master/img/oscillator-schematic.svg
-[plot]: img/animated-salt-vortex.png
+[plot]: img/animated-salt-vortex.gif
