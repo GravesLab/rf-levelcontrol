@@ -30,8 +30,5 @@ The included IPython Notebook analyzes the raw spectral files in `/analysis/data
 ![network analysis][plot]
 
 
-
-
-
-[schematic]: img/oscillator-schematic.svg
+[schematic]: https://cdn.rawgit.com/GravesLab/rigol-networkanalyzer/master/img/oscillator-schematic.svg
 [plot]: img/nano_vortex.png
