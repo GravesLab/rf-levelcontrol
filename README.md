@@ -1,6 +1,7 @@
-Rigol Network Analyzer
-======================
-Software for acquiring and analyzing data from Rigol network analyzers
+Radio-Frequency Level Controller
+================================
+Hardware and software for acquiring, analyzing, and controlling liquid level using non-contact RF sensors.
+Includes software for acquiring and analyzing data from Rigol network analyzers.
 
 Oscillator for MHz Sine Wave
 ----------------------------
