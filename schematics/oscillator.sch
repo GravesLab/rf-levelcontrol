@@ -1,0 +1,406 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr User 5929 4000
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C_Small C?
+U 1 1 576311D2
+P 2450 1300
+F 0 "C?" H 2460 1370 39  0001 L CNN
+F 1 "1 nF" H 2550 1300 39  0000 L CNN
+F 2 "" H 2450 1300 50  0000 C CNN
+F 3 "" H 2450 1300 50  0000 C CNN
+	1    2450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 5763121D
+P 2450 1600
+F 0 "C?" H 2460 1670 39  0001 L CNN
+F 1 "1 nF" H 2550 1600 39  0000 L CNN
+F 2 "" H 2450 1600 50  0000 C CNN
+F 3 "" H 2450 1600 50  0000 C CNN
+	1    2450 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 57631272
+P 2450 950
+F 0 "C?" H 2460 1020 39  0001 L CNN
+F 1 "100 nF" H 2550 950 39  0000 L CNN
+F 2 "" H 2450 950 50  0000 C CNN
+F 3 "" H 2450 950 50  0000 C CNN
+	1    2450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L D 1N4148
+U 1 1 576312AD
+P 2300 750
+F 0 "1N4148" H 2300 850 39  0000 C CNN
+F 1 "D" H 2300 650 50  0001 C CNN
+F 2 "" H 2300 750 50  0000 C CNN
+F 3 "" H 2300 750 50  0000 C CNN
+	1    2300 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L D 1N4148
+U 1 1 576312E2
+P 2600 750
+F 0 "1N4148" H 2600 850 39  0000 C CNN
+F 1 "D" H 2600 650 50  0001 C CNN
+F 2 "" H 2600 750 50  0000 C CNN
+F 3 "" H 2600 750 50  0000 C CNN
+	1    2600 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 57631551
+P 2050 800
+F 0 "#PWR?" H 2050 550 50  0001 C CNN
+F 1 "Earth" H 2050 650 50  0001 C CNN
+F 2 "" H 2050 800 50  0000 C CNN
+F 3 "" H 2050 800 50  0000 C CNN
+	1    2050 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 57631581
+P 2850 800
+F 0 "#PWR?" H 2850 550 50  0001 C CNN
+F 1 "Earth" H 2850 650 50  0001 C CNN
+F 2 "" H 2850 800 50  0000 C CNN
+F 3 "" H 2850 800 50  0000 C CNN
+	1    2850 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 750  2150 750 
+Wire Wire Line
+	2750 750  2850 750 
+Wire Wire Line
+	2450 850  2450 750 
+$Comp
+L Earth #PWR?
+U 1 1 5763190C
+P 2450 1750
+F 0 "#PWR?" H 2450 1500 50  0001 C CNN
+F 1 "Earth" H 2450 1600 50  0001 C CNN
+F 2 "" H 2450 1750 50  0000 C CNN
+F 3 "" H 2450 1750 50  0000 C CNN
+	1    2450 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1400 2450 1500
+Wire Wire Line
+	2450 1700 2450 1750
+$Comp
+L INDUCTOR_SMALL L?
+U 1 1 576319B8
+P 2050 1450
+F 0 "L?" V 2050 1550 39  0001 C CNN
+F 1 "1.1 µH" V 2100 1350 39  0000 C CNN
+F 2 "" H 2050 1450 50  0000 C CNN
+F 3 "" H 2050 1450 50  0000 C CNN
+	1    2050 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 57631A66
+P 2050 1750
+F 0 "#PWR?" H 2050 1500 50  0001 C CNN
+F 1 "Earth" H 2050 1600 50  0001 C CNN
+F 2 "" H 2050 1750 50  0000 C CNN
+F 3 "" H 2050 1750 50  0000 C CNN
+	1    2050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1700 2050 1750
+Wire Wire Line
+	2050 1200 3300 1200
+Wire Wire Line
+	2450 1200 2450 1050
+Connection ~ 2450 1200
+$Comp
+L R Rosc
+U 1 1 576322A6
+P 2950 1400
+F 0 "Rosc" V 3030 1400 39  0000 C CNN
+F 1 "330" V 2950 1400 50  0000 C CNN
+F 2 "" V 2880 1400 50  0000 C CNN
+F 3 "" H 2950 1400 50  0000 C CNN
+	1    2950 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2800 1400 2450 1400
+Wire Wire Line
+	2850 750  2850 800 
+Wire Wire Line
+	2050 750  2050 800 
+$Comp
+L R Rg
+U 1 1 576326DF
+P 3200 1950
+F 0 "Rg" H 3100 1950 39  0000 C CNN
+F 1 "100" V 3200 1950 50  0000 C CNN
+F 2 "" V 3130 1950 50  0000 C CNN
+F 3 "" H 3200 1950 50  0000 C CNN
+	1    3200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57632766
+P 4100 1800
+F 0 "R?" V 4180 1800 39  0001 C CNN
+F 1 "1k" V 4100 1800 50  0000 C CNN
+F 2 "" V 4030 1800 50  0000 C CNN
+F 3 "" H 4100 1800 50  0000 C CNN
+	1    4100 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 576327FD
+P 3200 2100
+F 0 "#PWR?" H 3200 1850 50  0001 C CNN
+F 1 "Earth" H 3200 1950 50  0001 C CNN
+F 2 "" H 3200 2100 50  0000 C CNN
+F 3 "" H 3200 2100 50  0000 C CNN
+	1    3200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1800 3200 1400
+Wire Wire Line
+	3200 1800 3950 1800
+Wire Wire Line
+	4250 1800 4250 1300
+Wire Wire Line
+	3900 1300 4300 1300
+$Comp
+L R Rterm
+U 1 1 576329BE
+P 4450 1300
+F 0 "Rterm" V 4530 1300 39  0000 C CNN
+F 1 "50" V 4450 1300 50  0000 C CNN
+F 2 "" V 4380 1300 50  0000 C CNN
+F 3 "" H 4450 1300 50  0000 C CNN
+	1    4450 1300
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4250 1300
+$Comp
+L R Rload
+U 1 1 57632A97
+P 4700 1550
+F 0 "Rload" V 4625 1550 39  0000 C CNN
+F 1 "50" V 4700 1550 50  0000 C CNN
+F 2 "" V 4630 1550 50  0000 C CNN
+F 3 "" H 4700 1550 50  0000 C CNN
+	1    4700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 57632ADA
+P 4700 1750
+F 0 "#PWR?" H 4700 1500 50  0001 C CNN
+F 1 "Earth" H 4700 1600 50  0001 C CNN
+F 2 "" H 4700 1750 50  0000 C CNN
+F 3 "" H 4700 1750 50  0000 C CNN
+	1    4700 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1700 4700 1750
+Wire Wire Line
+	4700 1400 4700 1300
+Wire Wire Line
+	4700 1300 4600 1300
+Wire Wire Line
+	3100 1400 3300 1400
+Connection ~ 3200 1400
+Connection ~ 2900 1200
+Text Label 2800 1150 0    39   ~ 8
+V_Res
+Text Label 4150 1250 0    39   ~ 8
+V_Out
+$Comp
+L +12V #PWR?
+U 1 1 57632E6B
+P 3500 700
+F 0 "#PWR?" H 3500 550 50  0001 C CNN
+F 1 "+12V" H 3600 800 39  0000 C CNN
+F 2 "" H 3500 700 50  0000 C CNN
+F 3 "" H 3500 700 50  0000 C CNN
+	1    3500 700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 57632E97
+P 3750 750
+F 0 "#PWR?" H 3750 500 50  0001 C CNN
+F 1 "Earth" H 3750 600 50  0001 C CNN
+F 2 "" H 3750 750 50  0000 C CNN
+F 3 "" H 3750 750 50  0000 C CNN
+	1    3750 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 700  3750 750 
+$Comp
+L C_Small C?
+U 1 1 57632F20
+P 3950 950
+F 0 "C?" V 4150 900 39  0001 L CNN
+F 1 "100 nF" V 4050 850 39  0000 L CNN
+F 2 "" H 3950 950 50  0000 C CNN
+F 3 "" H 3950 950 50  0000 C CNN
+	1    3950 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 57632FB8
+P 4150 1000
+F 0 "#PWR?" H 4150 750 50  0001 C CNN
+F 1 "Earth" H 4150 850 50  0001 C CNN
+F 2 "" H 4150 1000 50  0000 C CNN
+F 3 "" H 4150 1000 50  0000 C CNN
+	1    4150 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 950  3500 950 
+Connection ~ 3500 950 
+Wire Wire Line
+	4050 950  4150 950 
+Wire Wire Line
+	4150 950  4150 1000
+Wire Wire Line
+	3500 700  3750 700 
+Wire Wire Line
+	3500 800  3500 1000
+$Comp
+L +12V #PWR?
+U 1 1 576332F6
+P 3500 1700
+F 0 "#PWR?" H 3500 1550 50  0001 C CNN
+F 1 "+12V" V 3550 1850 39  0000 C CNN
+F 2 "" H 3500 1700 50  0000 C CNN
+F 3 "" H 3500 1700 50  0000 C CNN
+	1    3500 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C_Small C?
+U 1 1 576334F2
+P 3600 1700
+F 0 "C?" V 3650 1500 39  0001 L CNN
+F 1 "100 nF" V 3600 1375 39  0000 L CNN
+F 2 "" H 3600 1700 50  0000 C CNN
+F 3 "" H 3600 1700 50  0000 C CNN
+	1    3600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 576334F8
+P 3700 1900
+F 0 "#PWR?" H 3700 1650 50  0001 C CNN
+F 1 "Earth" H 3700 1750 50  0001 C CNN
+F 2 "" H 3700 1900 50  0000 C CNN
+F 3 "" H 3700 1900 50  0000 C CNN
+	1    3700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM6161 U?
+U 1 1 57631094
+P 3600 1300
+F 0 "U?" H 3700 1550 39  0001 C CNN
+F 1 "LM6161" H 3700 1450 39  0000 C CNN
+F 2 "" H 3650 1500 50  0000 C CNN
+F 3 "" H 3750 1600 50  0000 C CNN
+	1    3600 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 1700 3500 1600
+$Comp
+L Earth #PWR?
+U 1 1 57633853
+P 3400 1900
+F 0 "#PWR?" H 3400 1650 50  0001 C CNN
+F 1 "Earth" H 3400 1750 50  0001 C CNN
+F 2 "" H 3400 1900 50  0000 C CNN
+F 3 "" H 3400 1900 50  0000 C CNN
+	1    3400 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1900 3700 1700
+Wire Wire Line
+	3400 1700 3400 1900
+NoConn ~ 3600 1600
+NoConn ~ 3700 1600
+Text Notes 1600 3225 0    60   ~ 0
+RF Oscillator with Current-Feedback Op Amp
+Text Notes 2400 3375 0    60   ~ 0
+2016-06-01
+Text Notes 4825 3375 0    60   ~ 0
+1
+Text Notes 1225 2825 0    60   ~ 0
+MHz-frequency sine wave oscillator using a high-speed current-feedback \noperational amplifier in a Colpitts oscillator with a high-power buffered output.\n\nBased on "RF oscillator uses current-feedback op amp", EDN 2002-10-03, Victor Koren\n\nSchematic by Brandon Curtis, 2016-06-01
+$EndSCHEMATC
